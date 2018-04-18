@@ -8,12 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		B99DBDF620871AF5001692D9 /* MTAssetInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBDF420871AF5001692D9 /* MTAssetInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B99DBE1520871DA6001692D9 /* MTLocking.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBDFD20871DA6001692D9 /* MTLocking.h */; };
+		B99DBE1620871DA6001692D9 /* MTLocking.m in Sources */ = {isa = PBXBuildFile; fileRef = B99DBDFE20871DA6001692D9 /* MTLocking.m */; };
+		B99DBE1720871DA6001692D9 /* MTBlobInputStreamAssetDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBDFF20871DA6001692D9 /* MTBlobInputStreamAssetDataSource.h */; };
+		B99DBE1820871DA6001692D9 /* MTBlobInputStreamDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBE0020871DA6001692D9 /* MTBlobInputStreamDataSource.h */; };
+		B99DBE1920871DA6001692D9 /* MTBlobInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B99DBE0120871DA6001692D9 /* MTBlobInputStream.m */; };
+		B99DBE1B20871DA6001692D9 /* MTAdjustedAssetReaderAL.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBE0420871DA6001692D9 /* MTAdjustedAssetReaderAL.h */; };
+		B99DBE1C20871DA6001692D9 /* MTAdjustedAssetReaderAL.m in Sources */ = {isa = PBXBuildFile; fileRef = B99DBE0520871DA6001692D9 /* MTAdjustedAssetReaderAL.m */; };
+		B99DBE1D20871DA6001692D9 /* MTAdjustedAssetReaderPH.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBE0620871DA6001692D9 /* MTAdjustedAssetReaderPH.h */; };
+		B99DBE1E20871DA6001692D9 /* MTAdjustedAssetReaderPH.m in Sources */ = {isa = PBXBuildFile; fileRef = B99DBE0720871DA6001692D9 /* MTAdjustedAssetReaderPH.m */; };
+		B99DBE1F20871DA6001692D9 /* MTAssetReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBE0820871DA6001692D9 /* MTAssetReader.h */; };
+		B99DBE2020871DA6001692D9 /* MTFastAssetReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBE0920871DA6001692D9 /* MTFastAssetReader.h */; };
+		B99DBE2120871DA6001692D9 /* MTFastAssetReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B99DBE0A20871DA6001692D9 /* MTFastAssetReader.m */; };
+		B99DBE2220871DA6001692D9 /* MTAssetRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBE0C20871DA6001692D9 /* MTAssetRepresentation.h */; };
+		B99DBE2320871DA6001692D9 /* MTAssetRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = B99DBE0D20871DA6001692D9 /* MTAssetRepresentation.m */; };
+		B99DBE2420871DA6001692D9 /* MTBlobInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBE0E20871DA6001692D9 /* MTBlobInputStream.h */; };
+		B99DBE2520871DA6001692D9 /* MTBlobInputStreamAssetDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B99DBE0F20871DA6001692D9 /* MTBlobInputStreamAssetDataSource.m */; };
+		B99DBE2620871DA6001692D9 /* ALAssetsLibrary+MTStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBE1120871DA6001692D9 /* ALAssetsLibrary+MTStream.h */; };
+		B99DBE2720871DA6001692D9 /* ALAssetsLibrary+MTStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B99DBE1220871DA6001692D9 /* ALAssetsLibrary+MTStream.m */; };
+		B99DBE2820871DA6001692D9 /* NSInputStream+MTAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DBE1320871DA6001692D9 /* NSInputStream+MTAsset.h */; };
+		B99DBE2920871DA6001692D9 /* NSInputStream+MTAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = B99DBE1420871DA6001692D9 /* NSInputStream+MTAsset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B99DBDF120871AF5001692D9 /* MTAssetInputStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTAssetInputStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99DBDF420871AF5001692D9 /* MTAssetInputStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAssetInputStream.h; sourceTree = "<group>"; };
 		B99DBDF520871AF5001692D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99DBDFD20871DA6001692D9 /* MTLocking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocking.h; sourceTree = "<group>"; };
+		B99DBDFE20871DA6001692D9 /* MTLocking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocking.m; sourceTree = "<group>"; };
+		B99DBDFF20871DA6001692D9 /* MTBlobInputStreamAssetDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBlobInputStreamAssetDataSource.h; sourceTree = "<group>"; };
+		B99DBE0020871DA6001692D9 /* MTBlobInputStreamDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBlobInputStreamDataSource.h; sourceTree = "<group>"; };
+		B99DBE0120871DA6001692D9 /* MTBlobInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBlobInputStream.m; sourceTree = "<group>"; };
+		B99DBE0420871DA6001692D9 /* MTAdjustedAssetReaderAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAdjustedAssetReaderAL.h; sourceTree = "<group>"; };
+		B99DBE0520871DA6001692D9 /* MTAdjustedAssetReaderAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAdjustedAssetReaderAL.m; sourceTree = "<group>"; };
+		B99DBE0620871DA6001692D9 /* MTAdjustedAssetReaderPH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAdjustedAssetReaderPH.h; sourceTree = "<group>"; };
+		B99DBE0720871DA6001692D9 /* MTAdjustedAssetReaderPH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAdjustedAssetReaderPH.m; sourceTree = "<group>"; };
+		B99DBE0820871DA6001692D9 /* MTAssetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAssetReader.h; sourceTree = "<group>"; };
+		B99DBE0920871DA6001692D9 /* MTFastAssetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFastAssetReader.h; sourceTree = "<group>"; };
+		B99DBE0A20871DA6001692D9 /* MTFastAssetReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFastAssetReader.m; sourceTree = "<group>"; };
+		B99DBE0C20871DA6001692D9 /* MTAssetRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAssetRepresentation.h; sourceTree = "<group>"; };
+		B99DBE0D20871DA6001692D9 /* MTAssetRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAssetRepresentation.m; sourceTree = "<group>"; };
+		B99DBE0E20871DA6001692D9 /* MTBlobInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBlobInputStream.h; sourceTree = "<group>"; };
+		B99DBE0F20871DA6001692D9 /* MTBlobInputStreamAssetDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBlobInputStreamAssetDataSource.m; sourceTree = "<group>"; };
+		B99DBE1120871DA6001692D9 /* ALAssetsLibrary+MTStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+MTStream.h"; sourceTree = "<group>"; };
+		B99DBE1220871DA6001692D9 /* ALAssetsLibrary+MTStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+MTStream.m"; sourceTree = "<group>"; };
+		B99DBE1320871DA6001692D9 /* NSInputStream+MTAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInputStream+MTAsset.h"; sourceTree = "<group>"; };
+		B99DBE1420871DA6001692D9 /* NSInputStream+MTAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInputStream+MTAsset.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +86,62 @@
 		B99DBDF320871AF5001692D9 /* MTAssetInputStream */ = {
 			isa = PBXGroup;
 			children = (
+				B99DBE0320871DA6001692D9 /* AssetRead */,
+				B99DBE1020871DA6001692D9 /* Category */,
+				B99DBE0B20871DA6001692D9 /* CustomizeAttributes */,
+				B99DBDFC20871DA6001692D9 /* Lock */,
+				B99DBE0E20871DA6001692D9 /* MTBlobInputStream.h */,
+				B99DBE0120871DA6001692D9 /* MTBlobInputStream.m */,
+				B99DBDFF20871DA6001692D9 /* MTBlobInputStreamAssetDataSource.h */,
+				B99DBE0F20871DA6001692D9 /* MTBlobInputStreamAssetDataSource.m */,
+				B99DBE0020871DA6001692D9 /* MTBlobInputStreamDataSource.h */,
 				B99DBDF420871AF5001692D9 /* MTAssetInputStream.h */,
 				B99DBDF520871AF5001692D9 /* Info.plist */,
 			);
 			path = MTAssetInputStream;
+			sourceTree = "<group>";
+		};
+		B99DBDFC20871DA6001692D9 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				B99DBDFD20871DA6001692D9 /* MTLocking.h */,
+				B99DBDFE20871DA6001692D9 /* MTLocking.m */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		B99DBE0320871DA6001692D9 /* AssetRead */ = {
+			isa = PBXGroup;
+			children = (
+				B99DBE0420871DA6001692D9 /* MTAdjustedAssetReaderAL.h */,
+				B99DBE0520871DA6001692D9 /* MTAdjustedAssetReaderAL.m */,
+				B99DBE0620871DA6001692D9 /* MTAdjustedAssetReaderPH.h */,
+				B99DBE0720871DA6001692D9 /* MTAdjustedAssetReaderPH.m */,
+				B99DBE0820871DA6001692D9 /* MTAssetReader.h */,
+				B99DBE0920871DA6001692D9 /* MTFastAssetReader.h */,
+				B99DBE0A20871DA6001692D9 /* MTFastAssetReader.m */,
+			);
+			path = AssetRead;
+			sourceTree = "<group>";
+		};
+		B99DBE0B20871DA6001692D9 /* CustomizeAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				B99DBE0C20871DA6001692D9 /* MTAssetRepresentation.h */,
+				B99DBE0D20871DA6001692D9 /* MTAssetRepresentation.m */,
+			);
+			path = CustomizeAttributes;
+			sourceTree = "<group>";
+		};
+		B99DBE1020871DA6001692D9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B99DBE1120871DA6001692D9 /* ALAssetsLibrary+MTStream.h */,
+				B99DBE1220871DA6001692D9 /* ALAssetsLibrary+MTStream.m */,
+				B99DBE1320871DA6001692D9 /* NSInputStream+MTAsset.h */,
+				B99DBE1420871DA6001692D9 /* NSInputStream+MTAsset.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +151,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99DBE2420871DA6001692D9 /* MTBlobInputStream.h in Headers */,
+				B99DBE2620871DA6001692D9 /* ALAssetsLibrary+MTStream.h in Headers */,
 				B99DBDF620871AF5001692D9 /* MTAssetInputStream.h in Headers */,
+				B99DBE2820871DA6001692D9 /* NSInputStream+MTAsset.h in Headers */,
+				B99DBE1F20871DA6001692D9 /* MTAssetReader.h in Headers */,
+				B99DBE1B20871DA6001692D9 /* MTAdjustedAssetReaderAL.h in Headers */,
+				B99DBE2220871DA6001692D9 /* MTAssetRepresentation.h in Headers */,
+				B99DBE1720871DA6001692D9 /* MTBlobInputStreamAssetDataSource.h in Headers */,
+				B99DBE2020871DA6001692D9 /* MTFastAssetReader.h in Headers */,
+				B99DBE1D20871DA6001692D9 /* MTAdjustedAssetReaderPH.h in Headers */,
+				B99DBE1820871DA6001692D9 /* MTBlobInputStreamDataSource.h in Headers */,
+				B99DBE1520871DA6001692D9 /* MTLocking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +198,7 @@
 				TargetAttributes = {
 					B99DBDF020871AF5001692D9 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -131,6 +234,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99DBE2320871DA6001692D9 /* MTAssetRepresentation.m in Sources */,
+				B99DBE1920871DA6001692D9 /* MTBlobInputStream.m in Sources */,
+				B99DBE2720871DA6001692D9 /* ALAssetsLibrary+MTStream.m in Sources */,
+				B99DBE2520871DA6001692D9 /* MTBlobInputStreamAssetDataSource.m in Sources */,
+				B99DBE1E20871DA6001692D9 /* MTAdjustedAssetReaderPH.m in Sources */,
+				B99DBE2120871DA6001692D9 /* MTFastAssetReader.m in Sources */,
+				B99DBE2920871DA6001692D9 /* NSInputStream+MTAsset.m in Sources */,
+				B99DBE1C20871DA6001692D9 /* MTAdjustedAssetReaderAL.m in Sources */,
+				B99DBE1620871DA6001692D9 /* MTLocking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,16 +363,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MTAssetInputStream/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dmsys.MTAssetInputStream;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martintso.MTAssetInputStream;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -270,16 +386,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MTAssetInputStream/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dmsys.MTAssetInputStream;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martintso.MTAssetInputStream;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
