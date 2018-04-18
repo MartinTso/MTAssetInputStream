@@ -44,6 +44,7 @@ NSInputStream *assetStream = [NSInputStream mt_inputStreamWithAssetURL:assetUrl 
 
 ### Note
 · must open stream in child thread.
+
 · if local file, please use system api
 ```objective-c
 - (nullable instancetype)initWithFileAtPath:(NSString *)path;
